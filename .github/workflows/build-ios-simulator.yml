@@ -36,8 +36,8 @@ jobs:
           zip -r Runner.app.zip Runner.app
           mv Runner.app.zip $GITHUB_WORKSPACE/
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: ios-simulator-app
-          path: Runner.app.zip
+     - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ios-simulator-app
+        path: path/to/your/app
