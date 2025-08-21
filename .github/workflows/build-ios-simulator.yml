@@ -44,7 +44,7 @@ jobs:
 
       # 7️⃣ Sobe o .app.zip como artifact
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ios-simulator-app
           path: Runner.app.zip
