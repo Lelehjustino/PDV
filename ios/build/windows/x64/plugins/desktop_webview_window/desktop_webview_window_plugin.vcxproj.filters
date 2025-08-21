@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\desktop_webview_window_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\webview_window.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\flutter_view.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\web_view.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\message_channel_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\web_view_window_plugin.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\webview_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\strconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\flutter_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\web_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\message_channel_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\web_view_window_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Essrrom\Desktop\nubi_pdv\windows\flutter\ephemeral\.plugin_symlinks\desktop_webview_window\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{442F0DD1-DDFC-3B61-A628-7F4B0B5DF6C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{12398E05-05CA-3542-8F1E-264DEA626C82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

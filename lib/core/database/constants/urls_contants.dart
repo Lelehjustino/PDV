@@ -1,0 +1,1 @@
+const String KSEN_IMAGEM_URL = 'assets/images/sem_foto.png';

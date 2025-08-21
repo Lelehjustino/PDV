@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\flutter\x64\Debug\flutter_assemble</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\plugins\desktop_webview_window\Debug\desktop_webview_window_plugin.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\plugins\flutter_libserialport\Debug\flutter_libserialport_plugin.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\plugins\webview_windows\Debug\webview_windows_plugin.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\runner\Debug\nubi_pdv.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\plugins\flutter_libserialport\libserialport\Debug\serialport.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\plugins\webview_windows\x64\Debug\webview_windows_DEPENDENCIES_DOWNLOAD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Essrrom\Desktop\nubi_pdv\build\windows\x64\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

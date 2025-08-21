@@ -1,0 +1,10 @@
+^C:\USERS\ESSRROM\DESKTOP\NUBI_PDV\BUILD\WINDOWS\X64\CMAKEFILES\9DA0FECC3E142EA9DB0AD1FBAB7122C4\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
