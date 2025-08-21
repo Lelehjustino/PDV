@@ -10,39 +10,41 @@ on:
 
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-latest
 
     steps:
-      # 1️⃣ Clona o código
+      # 1️⃣ Clona o repositório
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2️⃣ Instala a versão correta do Flutter
+      # 2️⃣ Instala Flutter (canal stable + upgrade)
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.14.0'  # Atualizado para Dart 3.5
+          channel: stable  # usa canal estável
+      - name: Upgrade Flutter
+        run: flutter upgrade
 
       # 3️⃣ Instala dependências
       - name: Install dependencies
         run: flutter pub get
 
-      # 4️⃣ Build para iOS Simulator
+      # 4️⃣ Build iOS Simulator
       - name: Build iOS Simulator
         run: flutter build ios --simulator --no-codesign
 
-      # 5️⃣ Debug do output
+      # 5️⃣ Debug do build
       - name: Check build output
         run: ls build/ios/iphonesimulator
 
-      # 6️⃣ Cria o .app.zip
+      # 6️⃣ Zip do app
       - name: Zip app
         run: |
           cd build/ios/iphonesimulator
           zip -r Runner.app.zip Runner.app
           mv Runner.app.zip $GITHUB_WORKSPACE/
 
-      # 7️⃣ Sobe o .app.zip como artifact
+      # 7️⃣ Upload do artifact
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
